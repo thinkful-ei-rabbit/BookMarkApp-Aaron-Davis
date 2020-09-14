@@ -1,0 +1,24 @@
+{
+  "name": "bookmark-app",
+  "version": "1.0.0",
+  "description": "bookmarks",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AD30344/Book-Mark-App.git"
+  },
+  "author": "AaronDavis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AD30344/Book-Mark-App/issues"
+  },
+  "homepage": "https://github.com/AD30344/Book-Mark-App#readme"
+}

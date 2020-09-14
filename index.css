@@ -1,0 +1,156 @@
+/* --- General Html  ---- */
+
+label,input {
+ display: block;
+ width: 150px;
+ float: left;
+ margin-bottom: 10px;
+}
+
+label {
+ text-align: right;
+ width: 75px;
+ padding-right: 20px;
+}
+
+.createBmark{
+display:none;
+}
+
+main{
+display:flex;
+flex-direction: column;
+justify-content: center;
+} 
+
+h1{
+font-style:fantasy;
+}
+
+.item, .expand{
+  display: flex;
+  padding: 4px;
+  justify-content: center;
+}
+.expand{
+  align-items: center;
+}
+
+label, div.item{
+  font-size: 20px;
+}
+
+textarea {
+  display: flex;
+  flex:2;
+}
+
+header, h1 {
+  font-style:fantasy;
+}
+
+/* --- Colors / designs  ---- */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.filter-rating{
+width:15%;
+}
+
+h1, h3, input, textarea, ::placeholder, label, div.item{
+  color:rgb(17, 8, 8)
+ 
+}
+h3{
+  text-align: center;
+}
+
+div.form
+{
+    display: block;
+    text-align: center;
+}
+
+form
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.container{
+  box-shadow:3px, 3px, 3px, ;
+}
+body, textarea, input{
+  background-color: coral;
+  font-size: 20px;
+  font-style:oblique;
+}
+
+form textarea, form input{
+  background-color: #d6ebe6;
+  font-size: 20px;
+}
+.newForm{
+  width:10%;
+  height:10;
+ 
+}
+
+header{
+  background-color: blue;
+}
+
+.expand, .expands{
+  background-color: #DBFE87;
+  padding: 0;
+  margin: 0;
+}
+
+/*Button Styling */
+
+
+button:hover{background-color:rgb(37, 168, 19)}
+.button:active{background-color:rgb(180, 22, 22)}
+
+body {
+  margin:50px 0px; padding:0px;
+  text-align:center;
+ 
+}
+
+label,input {
+display: block;
+width: 150px;
+float: middle;
+margin-bottom: 10px;
+}
+
+label {
+text-align: right;
+width: 75px;
+padding-right: 20px;
+}
+
+br {
+clear: left;
+}
+
+
+/* --- Media queries  ---- */
+
+@media all and (min-width: 800px){
+
+  .list {
+    margin: 1% 20%;
+  }
+
+}
+  

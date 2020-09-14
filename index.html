@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Book Mark App</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+<main class= "main">
+    
+    <div class='container'>
+        <header>
+            <h1>My Book Mark List</h1>
+            </header>
+            <p id= "js-error-message" class= "error-message"></p>  
+            <section id= "results" class= "hidden">
+            <h3>Book List</h3>
+                    <ul class= "results-list">
+                        <div class="list-container">
+                            <li class="bookmark-element" bookmark-id="">
+                               
+                                <div class="rating"></div>
+                            </li>
+                        </div>
+                    </ul>
+            </section><br>
+            <button class= "newForm" type="submit">New</button>
+            <select class= "filter-rating" checked=""><br>
+                <option value="0" disabled selected hidden>Filter by Rating</option>
+                <option value="5">5 Stars</option>
+                <option value="4">4 Stars</option>
+                <option value="3">3 Stars</option>
+                <option value="2">2 Stars</option>
+                <option value="1">1 Star</option>
+                <option value="1">0 Stars</option>
+            </select>
+        </div>
+`
+
+<div class= "form">
+    <form class = "createBmark"  method = "post">
+        <h3>Create</h3>
+        <label for='title'>Title</label><br>
+            <input type='text' id="title" name='title'  required><br>
+        <label for='url'>Url</label><br>
+            <input type='text' id ="url" name='url' required><br>
+        <label for='url'columns= "2">Description</label><br>
+            <input type='text'  id="description" name='description'><br>
+                <select class= "addRating">
+                    <option value="0" disabled selected hidden>Rating</option>
+                    <option value="5" name="rating">5 Stars</option>
+                    <option value="4" name="rating">4 Stars</option>
+                    <option value="3" name="rating">3 Stars</option>
+                    <option value="2" name="rating">2 Stars</option>
+                    <option value="1" name="rating">1 Star</option>
+                    <option value="0" name="rating">0 Star</option>
+                </select>
+                <br> <br>
+                <button class= "create" input type= "submit" value= "Submit">Add</button>
+                <button class= "cancel" value= "Cancel">Cancel</button>
+            </div>
+    <br>  
+    </form>
+</div>
+        
+</div>
+    </main>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/cuid/1.3.8/browser-cuid.min.js"></script>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script tye="text/javascript" src="index.js"></script>
+      
+
+</html>
